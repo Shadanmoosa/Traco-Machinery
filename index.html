@@ -32,6 +32,24 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+@media (max-width: 768px) {
+    .get-started .content, 
+    .alt-services,
+    .tab-content {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+/* logo */
+@media (max-width: 768px) {
+    .logo {
+        padding-left: 15px; /* Adjust the value as needed */
+    }
+}
+  </style>
+
 </head>
 
 <body>
@@ -49,9 +67,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#product">About</a></li>
-          <li><a href="services.html">Products</a></li>
-          <li><a href="projects.html">Services</a></li>
+          <li><a href="#abouts">About</a></li>
+          <li><a href="#pro">Products</a></li>
+          <li><a href="#service">Services</a></li>
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                 class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
@@ -79,6 +97,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+   
   <section id="about1" class="hero">
 
     <div class="info d-flex align-items-center" id="about2">
@@ -118,6 +137,7 @@
   <main id="main">
 
     <!-- ======= ABOUT======= -->
+    <div id="abouts"></div>
     <section id="get-started" class="get-started section-bg">
         <div class="container">
   
@@ -159,7 +179,7 @@
               <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Comprehensive GSE Solutions</a></h4>
+                  <h4><a  class="stretched-link">Comprehensive GSE Solutions</a></h4>
                   <p>Image of various GSE equipment, including aircraft tugs, baggage handling systems, and refueling trucks at an airport.</p>
                 </div>
               </div><!-- End Icon Box -->
@@ -167,7 +187,7 @@
               <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Expert Maintenance & Upgradation</a></h4>
+                  <h4><a  class="stretched-link">Expert Maintenance & Upgradation</a></h4>
                   <p>Image of technicians servicing GSE equipment or inspecting machinery on the ground.</p>
                 </div>
               </div><!-- End Icon Box -->
@@ -175,7 +195,7 @@
               <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-patch-check flex-shrink-0""></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Premium Spare Parts Supply</a></h4>
+                  <h4><a  class="stretched-link">Premium Spare Parts Supply</a></h4>
                   <p>Close-up image of GSE spare parts, such as hydraulic components, wheels, or electrical parts neatly arranged.</p>
                 </div>
               </div><!-- End Icon Box -->
@@ -183,7 +203,7 @@
               <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-patch-check flex-shrink-0""></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Professional Training Programs</a></h4>
+                  <h4><a ] class="stretched-link">Professional Training Programs</a></h4>
                   <p>Image of staff in a training session, learning how to operate or maintain GSE equipment.</p>
                 </div>
               </div><!-- End Icon Box -->
@@ -196,7 +216,7 @@
 
 
     <!-- ======= PRODUCT SECTION ======= -->
-    <section id="services" class="services section-bg">
+    <section id="pro" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header" id="product">
@@ -316,97 +336,10 @@
       </div>
     </section><!-- PRODUCT SECTION-->
 
-    <!-- <section id="constructions" class="constructions">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-header">
-            <h2>Constructions</h2>
-            <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
-              dolore earum</p>
-          </div>
-  
-          <div class="row gy-4">
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <div class="card-item">
-                <div class="row">
-                  <div class="col-xl-5">
-                    <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
-                  </div>
-                  <div class="col-xl-7 d-flex align-items-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Eligendi omnis sunt veritatis.</h4>
-                      <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti
-                        adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-item">
-                <div class="row">
-                  <div class="col-xl-5">
-                    <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
-                  </div>
-                  <div class="col-xl-7 d-flex align-items-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Possimus ut sed velit assumenda</h4>
-                      <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui
-                        iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum
-                        dignissimos.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="card-item">
-                <div class="row">
-                  <div class="col-xl-5">
-                    <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpg);"></div>
-                  </div>
-                  <div class="col-xl-7 d-flex align-items-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Error beatae dolor inventore aut</h4>
-                      <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat
-                        ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla
-                        culpa.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="card-item">
-                <div class="row">
-                  <div class="col-xl-5">
-                    <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
-                  </div>
-                  <div class="col-xl-7 d-flex align-items-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Expedita voluptas ut ut nesciunt</h4>
-                      <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque
-                        architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores
-                        libero nobis.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section> -->
-
 
 
     <!-- ======= service ======= -->
-    <section id="features" class="features ">
+    <section id="service" class="features ">
       <div class="section-header" id="product">
         <h2>Our Services</h2>
         <!-- <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
@@ -452,10 +385,10 @@
                   At Traco GSE, we provide on-location maintenance and repair for Ground Support Equipment (GSE), ensuring minimal downtime and maximum efficiency. Our certified technicians deliver fast, reliable service right at your facility.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> Quick Response – Minimized downtime with on-site support.</li>
-                  <li><i class="bi bi-check2-all"></i> Certified Experts – Skilled in diagnostics, repairs, and maintenance.</li>
-                  <li><i class="bi bi-check2-all"></i> 24/7 Assistance – Ensuring smooth operations anytime.</li>
-                  <li><i class="bi bi-check2-all"></i> Cost-Effective – No need to transport heavy equipment.</li>
+                  <li data-aos="fade-up" data-aos-delay="200"><i class="bi bi-check2-all"></i> Quick Response – Minimized downtime with on-site support.</li>
+                  <li data-aos="fade-up" data-aos-delay="300"><i class="bi bi-check2-all"></i> Certified Experts – Skilled in diagnostics, repairs, and maintenance.</li>
+                  <li data-aos="fade-up" data-aos-delay="400"><i class="bi bi-check2-all"></i> 24/7 Assistance – Ensuring smooth operations anytime.</li>
+                  <li data-aos="fade-up" data-aos-delay="500"><i class="bi bi-check2-all"></i> Cost-Effective – No need to transport heavy equipment.</li>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
                 <img src="assets/img/features-1.jpg" alt="" class="img-fluid">
@@ -734,9 +667,9 @@
             <h4>Useful Links</h4>
             <ul class="list-unstyled">
               <li><a href="#">Home</a></li>
-              <li><a href="#product">About us</a></li>
-              <li><a href="#product">products</a></li>
-              <li><a href="#">Service</a></li>
+              <li><a href="#abouts">About us</a></li>
+              <li><a href="#pro">products</a></li>
+              <li><a href="#service">Service</a></li>
               <li><a href="#contact">Contact Us</a></li>
             </ul>
           </div><!-- End footer links column-->
