@@ -2791,7 +2791,7 @@ for about image
       align-items: center;
   }
   .about_thumb .img_2 {
-      margin-left: 0;
+      /* margin-left: 0; */
       margin-top: 20px;
   }
 }
@@ -2841,7 +2841,7 @@ for about image
 
 .about_area .about_thumb .img_2 {
   margin-top: 40px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .hr {
@@ -2852,6 +2852,26 @@ for about image
   border-bottom: 2px solid #eeeeeee6;
 }
 
+@media (max-width: 767px) {
+  .about_area {
+    overflow-x: hidden; /* Prevents horizontal scroll */
+  }
+  
+  .about_thumb {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centers the image properly */
+    align-items: center;
+    padding: 0; /* Ensures no extra padding */
+    margin: 0 auto; /* Removes any unintended margins */
+  }
+
+  .about_thumb img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Avoids extra spacing issues */
+  }
+}
 
 /* for */
 
